@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>SGX I.R.I.S. — Investor Relations Intelligence System</title>
+<meta name="description" content="SGX I.R.I.S. — the intelligence platform connecting issuers to investors. Built into the Singapore Exchange listing ecosystem." />
+<meta name="robots" content="noindex,nofollow" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<!-- Password gate -->
+<div id="gate" class="gate" role="dialog" aria-modal="true" aria-labelledby="gate-title">
+  <div class="gate-card">
+    <div class="gate-eyebrow">
+      <span class="dot"></span> Illustrative demo · Access required
+    </div>
+    <h1 id="gate-title" class="gate-title">
+      <span class="ink-blue">SGX</span><span class="ink-green">·</span>I.R.I.S.
+    </h1>
+    <p class="gate-sub">
+      This is a private, <b>illustrative concept demo</b>. It is not an SGX product
+      and is shared with limited stakeholders for review. Enter the access code to continue.
+    </p>
+    <form id="gate-form" class="gate-form" autocomplete="off">
+      <input id="gate-input" type="password" placeholder="Access code" aria-label="Access code" required />
+      <button type="submit">Enter →</button>
+    </form>
+    <p id="gate-error" class="gate-error" role="alert" aria-live="polite"></p>
+    <p class="gate-fineprint">
+      All data, screens, and metrics shown after entry are <b>placeholder/illustrative</b>
+      and do not reflect any real issuer, investor, or market activity.
+    </p>
+  </div>
+</div>
+
+<!-- Demo banner -->
+<div class="demo-banner" id="demo-banner" hidden>
+  <span class="demo-dot"></span>
+  <span><b>Illustrative concept demo</b> — not an SGX product. All data shown is placeholder content for discussion purposes only.</span>
+</div>
+
+<!-- Animated grid backdrop -->
+<div class="grid-bg" aria-hidden="true"></div>
+<div class="orb orb-1" aria-hidden="true"></div>
+<div class="orb orb-2" aria-hidden="true"></div>
+
+<!-- NAV -->
+<header class="nav">
+  <a class="logo" href="#top" aria-label="SGX IRIS home">
+    <span class="logo-sgx">SGX</span><span class="logo-dot">·</span><span class="logo-iris">I.R.I.S.</span>
+  </a>
+  <nav class="nav-links">
+    <a href="#platform">Platform</a>
+    <a href="#features">Features</a>
+    <a href="#compare">Compare</a>
+    <a href="#why">Why this wins</a>
+    <a href="#contact" class="cta-mini">Request access →</a>
+  </nav>
+</header>
+
+<!-- HERO -->
+<section id="top" class="hero">
+  <div class="ticker" aria-hidden="true">
+    <div class="ticker-track">
+      <span>● DEMO</span><span>SGX·I.R.I.S.</span><span>illustrative preview</span>
+      <span>shareholder signals</span><span>research intelligence</span>
+      <span>ASEAN cross-border</span><span>● DEMO</span><span>SGX·I.R.I.S.</span>
+      <span>illustrative preview</span><span>peer benchmarking</span>
+      <span>investor targeting</span><span>engagement analytics</span>
+    </div>
+  </div>
+
+  <div class="hero-inner">
+    <div class="eyebrow">
+      <span class="dot"></span> Investor Relations Intelligence System · Singapore Exchange
+    </div>
+
+    <h1 class="hero-title">
+      Connecting <span class="ink-blue">Issuers</span><br/>
+      to <span class="ink-blue">Investors</span>,<br/>
+      through <span class="ink-green underline-green">Intelligent IR.</span>
+    </h1>
+
+    <p class="hero-sub">
+      The operating system for the SGX listed-company lifecycle. From IPO readiness
+      to post-listing visibility — one dashboard for shareholder movement, filings,
+      research, and investor signals.
+    </p>
+
+    <div class="cta-row">
+      <a class="btn btn-primary" href="#contact">Request access</a>
+      <a class="btn btn-ghost" href="#platform">See the platform <span aria-hidden="true">↓</span></a>
+    </div>
+
+    <div class="hero-stats">
+      <div><strong>0</strong><span>upfront cost to issuers</span></div>
+      <div><strong>10</strong><span>core feature pillars</span></div>
+      <div><strong>1</strong><span>dashboard, end to end</span></div>
+      <div><strong>∞</strong><span>ASEAN cross-border reach</span></div>
+    </div>
+  </div>
+
+  <!-- decorative panel -->
+  <div class="hero-panel" aria-hidden="true">
+    <div class="panel-tag">Illustrative · sample signals</div>
+    <div class="panel-row"><span class="pill green">SAMPLE</span><span>Shareholder change · Institution X +0.8%</span></div>
+    <div class="panel-row"><span class="pill blue">SIGNAL</span><span>Peer consensus revised ↑ 3.2%</span></div>
+    <div class="panel-row"><span class="pill green">RESEARCH</span><span>2 new analyst notes published</span></div>
+    <div class="panel-row"><span class="pill blue">ENGAGE</span><span>14 institutional touches this week</span></div>
+    <div class="panel-bars">
+      <div class="bar" style="--h:40%"></div>
+      <div class="bar" style="--h:65%"></div>
+      <div class="bar" style="--h:55%"></div>
+      <div class="bar" style="--h:80%"></div>
+      <div class="bar" style="--h:72%"></div>
+      <div class="bar" style="--h:90%"></div>
+      <div class="bar" style="--h:60%"></div>
+    </div>
+  </div>
+</section>
+
+<!-- PROOF STRIP -->
+<section class="proof">
+  <div class="proof-item"><span>Embedded in</span><strong>SGXNet · SSO</strong></div>
+  <div class="proof-item"><span>Bundled with</span><strong>Value Unlock · EQDP</strong></div>
+  <div class="proof-item"><span>Powered by</span><strong>Smartkarma engageIR rails</strong></div>
+  <div class="proof-item"><span>Aligned to</span><strong>SGX Market Development</strong></div>
+</section>
+
+<!-- POSITIONING -->
+<section id="platform" class="section">
+  <div class="section-head">
+    <div class="kicker">// Positioning</div>
+    <h2>Not just a communication tool.<br/>An <span class="ink-green">intelligence platform</span>.</h2>
+    <p class="lede">
+      I.R.I.S. owns the data layer, the workflow layer, and the distribution layer —
+      collapsing fragmented tools into one daily operating system for IR.
+    </p>
+  </div>
+
+  <div class="three-col">
+    <article class="card">
+      <div class="card-num">01</div>
+      <h3>Data Layer</h3>
+      <p>Filings, shareholders, peers, consensus, news, research — pre-populated from Day 1. Zero manual input.</p>
+    </article>
+    <article class="card">
+      <div class="card-num">02</div>
+      <h3>Workflow Layer</h3>
+      <p>CRM, outreach, earnings, events, disclosure and compliance — fully integrated into SGXNet.</p>
+    </article>
+    <article class="card">
+      <div class="card-num">03</div>
+      <h3>Distribution Layer</h3>
+      <p>Smartkarma research, two-sided marketplace, ASEAN cross-border investor reach.</p>
+    </article>
+  </div>
+</section>
+
+<!-- FEATURES -->
+<section id="features" class="section dark">
+  <div class="section-head">
+    <div class="kicker light">// Core Feature Set</div>
+    <h2 class="light">Ten pillars.<br/>One dashboard.</h2>
+  </div>
+
+  <div class="feature-grid">
+    <div class="feat"><span class="feat-i">◆</span><h4>Research &amp; Content Intelligence</h4><p>Native research integration including Smartkarma GEMS — analyst coverage, thematic insights.</p></div>
+    <div class="feat"><span class="feat-i">◆</span><h4>Market Monitoring</h4><p>News flow, price action, sector trends and sentiment signals in real time.</p></div>
+    <div class="feat"><span class="feat-i">◆</span><h4>Peer Benchmarking</h4><p>Peer comparison, valuation gaps, consensus benchmarking — advanced out of the box.</p></div>
+    <div class="feat"><span class="feat-i">◆</span><h4>Shareholder Analysis</h4><p>Ownership tracking, fund flows, shareholder movement alerts.</p></div>
+    <div class="feat"><span class="feat-i">◆</span><h4>Investor Targeting</h4><p>AI-driven Action Plans, cross-border investor mapping, fund discovery.</p></div>
+    <div class="feat"><span class="feat-i">◆</span><h4>Engagement &amp; CRM</h4><p>Mailing lists, outreach tracking, corporate access — fully integrated.</p></div>
+    <div class="feat"><span class="feat-i">◆</span><h4>Investor Communication</h4><p>Announcements, presentations, updates with targeted dissemination.</p></div>
+    <div class="feat"><span class="feat-i">◆</span><h4>Earnings &amp; Events</h4><p>Results workflows, investor days, transcripts and post-event analytics.</p></div>
+    <div class="feat"><span class="feat-i">◆</span><h4>Disclosure &amp; Compliance</h4><p>Regulatory filings, compliance workflows, financial portal distribution.</p></div>
+    <div class="feat"><span class="feat-i">◆</span><h4>Digital Presence</h4><p>IR website deployment, CMS, engagement analytics and AI-driven alerts.</p></div>
+  </div>
+</section>
+
+<!-- VALUE PROPS -->
+<section class="section split">
+  <div class="split-col">
+    <div class="kicker">// For Issuers</div>
+    <h2>Singapore Exchange as your <span class="ink-green">growth partner</span>.</h2>
+    <ul class="check-list">
+      <li>Full lifecycle support — IPO readiness through sustained engagement</li>
+      <li>Measurable “Investor Eyes” — who is looking, engaging, and allocating</li>
+      <li>Disproportionate impact for mid- and small-cap visibility</li>
+      <li>Cross-border discovery → liquidity → valuation</li>
+      <li>Embedded into grant frameworks (carrot + stick)</li>
+    </ul>
+  </div>
+  <div class="split-col">
+    <div class="kicker">// For SGX</div>
+    <h2>From transactional SaaS to <span class="ink-green">ecosystem value</span>.</h2>
+    <ul class="check-list">
+      <li>Proprietary data exhaust on issuer &amp; investor behaviour</li>
+      <li>Premium IR advisory aligned to Value Unlock KPIs</li>
+      <li>Differentiated IPO pipeline &amp; new-listing magnet</li>
+      <li>Regional interoperability across APAC</li>
+      <li>Actionable intelligence for ECM, market dev &amp; coverage teams</li>
+    </ul>
+  </div>
+</section>
+
+<!-- COMPARISON -->
+<section id="compare" class="section">
+  <div class="section-head">
+    <div class="kicker">// Competitive Landscape</div>
+    <h2>The only platform combining<br/><span class="ink-green">research + network + workflow</span>.</h2>
+    <p class="lede">
+      Benchmarked against the four prevailing IR-tech archetypes. Vendor names withheld —
+      analysis based on publicly available product documentation and commercial signals.
+    </p>
+  </div>
+
+  <div class="table-wrap">
+    <table class="compare">
+      <thead>
+        <tr>
+          <th>Capability</th>
+          <th class="us">SGX I.R.I.S.<br/><small>(Smartkarma rails)</small></th>
+          <th>Vendor A<br/><small>Global IR-data incumbent</small></th>
+          <th>Vendor B<br/><small>Terminal &amp; analytics suite</small></th>
+          <th>Vendor C<br/><small>IR website &amp; CRM specialist</small></th>
+          <th>Vendor D<br/><small>Institutional targeting house</small></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Research &amp; Content Intelligence</td><td class="us"><b class="y">●</b> Native + GEMS</td><td><b class="n">○</b> Limited</td><td><b class="x">×</b> None</td><td><b class="m">◐</b> Basic</td><td><b class="x">×</b> None</td></tr>
+        <tr><td>Market Monitoring</td><td class="us"><b class="y">●</b> Integrated</td><td><b class="y">●</b> Strong</td><td><b class="y">●</b> Good</td><td><b class="y">●</b> Standard</td><td><b class="y">●</b> Strong</td></tr>
+        <tr><td>Peer Benchmarking</td><td class="us"><b class="y">●</b> Advanced</td><td><b class="y">●</b> Good</td><td><b class="m">◐</b> Basic</td><td><b class="m">◐</b> Basic</td><td><b class="y">●</b> Strong</td></tr>
+        <tr><td>Shareholder Analysis</td><td class="us"><b class="y">●</b> Integrated</td><td><b class="y">●</b> Strong</td><td><b class="y">●</b> Strong</td><td><b class="y">●</b> Good</td><td><b class="y">●</b> Best-in-class</td></tr>
+        <tr><td>Investor Targeting</td><td class="us"><b class="y">●</b> AI Action Plans</td><td><b class="y">●</b> Data-driven</td><td><b class="y">●</b> Strong</td><td><b class="y">●</b> Good</td><td><b class="y">●</b> Strong</td></tr>
+        <tr><td>Engagement &amp; CRM</td><td class="us"><b class="y">●</b> Integrated</td><td><b class="y">●</b> Workflow-heavy</td><td><b class="y">●</b> Core</td><td><b class="y">●</b> Core</td><td><b class="m">◐</b> Limited</td></tr>
+        <tr><td>Investor Communication</td><td class="us"><b class="y">●</b> Integrated</td><td><b class="y">●</b> Standard</td><td><b class="y">●</b> Standard</td><td><b class="y">●</b> Strong</td><td><b class="m">◐</b> Limited</td></tr>
+        <tr><td>Earnings &amp; Events</td><td class="us"><b class="y">●</b> Integrated</td><td><b class="y">●</b> Standard</td><td><b class="m">◐</b> Basic</td><td><b class="y">●</b> Strong</td><td><b class="m">◐</b> Limited</td></tr>
+        <tr><td>Disclosure &amp; Compliance</td><td class="us"><b class="y">●</b> Integrated</td><td><b class="y">●</b> Strong</td><td><b class="m">◐</b> Limited</td><td><b class="m">◐</b> Limited</td><td><b class="m">◐</b> Limited</td></tr>
+        <tr><td>Digital Presence &amp; Analytics</td><td class="us"><b class="y">●</b> Strong</td><td><b class="m">◐</b> Limited</td><td><b class="x">×</b> None</td><td><b class="y">●</b> Best-in-class</td><td><b class="x">×</b> None</td></tr>
+        <tr class="pricing"><td>Pricing</td><td class="us"><b class="y">●</b> Competitive</td><td><b class="n">○</b> Premium</td><td><b class="m">◐</b> Mid-tier</td><td><b class="n">○</b> Premium</td><td><b class="n">○</b> Enterprise</td></tr>
+      </tbody>
+    </table>
+    <p class="compare-note">Comparison reflects publicly observable product positioning. Indicative only; not an endorsement or affiliation.</p>
+  </div>
+</section>
+
+<!-- ACTIVATION -->
+<section class="section adoption">
+  <div class="section-head">
+    <div class="kicker">// Activation &amp; Adoption</div>
+    <h2>Habitual usage, by design.</h2>
+  </div>
+  <div class="adopt-grid">
+    <div class="adopt"><span class="adopt-num">01</span><p>Pre-populated dashboards Day 1 with SGXNet SSO.</p></div>
+    <div class="adopt"><span class="adopt-num">02</span><p>Bundled into IPO packages and SGX programmes.</p></div>
+    <div class="adopt"><span class="adopt-num">03</span><p>Zero manual input — passive data capture model.</p></div>
+    <div class="adopt"><span class="adopt-num">04</span><p>Automated alerts on research, investor &amp; peer activity.</p></div>
+    <div class="adopt"><span class="adopt-num">05</span><p>Embedded engagement: Analyst Direct, webinars, Q&amp;A.</p></div>
+    <div class="adopt"><span class="adopt-num">06</span><p>Two-sided marketplace — issuers ↔ investors.</p></div>
+    <div class="adopt"><span class="adopt-num">07</span><p>Gamified rankings, honour lists, IR scorecards.</p></div>
+    <div class="adopt"><span class="adopt-num">08</span><p>Free core tier · paid upsell via engageIR.</p></div>
+  </div>
+</section>
+
+<!-- WHY THIS WINS -->
+<section id="why" class="section win">
+  <div class="win-inner">
+    <div class="kicker light">// Why this wins</div>
+    <h2 class="light huge">
+      Only platform combining<br/>
+      research <span class="plus">+</span> investor network <span class="plus">+</span> IR workflows.
+    </h2>
+    <div class="win-points">
+      <div><b>01</b><p>Embedded into SGX regulatory and grant infrastructure.</p></div>
+      <div><b>02</b><p>Generates proprietary capital flow intelligence.</p></div>
+      <div><b>03</b><p>Scales regionally on ASEAN rails.</p></div>
+      <div><b>04</b><p>Drives liquidity, listings, and ecosystem revenue — directly.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section id="contact" class="section cta">
+  <div class="cta-card">
+    <div class="kicker">// Get on the platform</div>
+    <h2>Turn your IR function into a <span class="ink-green">continuous, data-driven</span> one.</h2>
+    <p>Available to SGX-listed issuers as a value-added service. No upfront cost.</p>
+    <form class="cta-form" onsubmit="event.preventDefault(); this.querySelector('button').textContent='Request received ✓'; this.querySelector('button').disabled=true;">
+      <input type="text" placeholder="Issuer / Company" required />
+      <input type="email" placeholder="Work email" required />
+      <button type="submit">Request access →</button>
+    </form>
+    <small class="fineprint">By submitting, you agree to be contacted by the SGX I.R.I.S. team.</small>
+  </div>
+</section>
+
+<footer class="foot">
+  <div class="foot-row">
+    <div class="logo">
+      <span class="logo-sgx">SGX</span><span class="logo-dot">·</span><span class="logo-iris">I.R.I.S.</span>
+    </div>
+    <div class="foot-links">
+      <a href="#platform">Platform</a>
+      <a href="#features">Features</a>
+      <a href="#compare">Compare</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </div>
+  <div class="foot-disclaimer">
+    <b>Illustrative concept demo.</b> This site is a private mock-up shared for stakeholder review only.
+    SGX I.R.I.S. is not a live product or a Singapore Exchange offering. All metrics, dashboards, comparisons,
+    and signals shown are placeholder content for illustration and do not represent real issuers, investors,
+    or market data. Trademarks and references remain the property of their respective owners.
+  </div>
+  <div class="foot-meta">
+    <span>Investor Relations Intelligence System · Concept demo</span>
+    <span>Built on Smartkarma engageIR rails · v0.1 preview</span>
+  </div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
