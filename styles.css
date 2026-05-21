@@ -71,6 +71,7 @@ a{color:inherit;text-decoration:none}
   font-size: 36px; line-height: 1; margin: 0 0 16px;
   letter-spacing: -0.02em;
 }
+.gate-title .ink-green{ margin: 0 0.35em; }
 .gate-sub{
   margin: 0 0 24px;
   color: rgba(10,18,48,0.72);
@@ -186,7 +187,7 @@ a{color:inherit;text-decoration:none}
   display:flex; align-items:center; gap:6px;
 }
 .logo-sgx{ color: var(--blue); }
-.logo-iris{ color: var(--ink); }
+.logo-irx{ color: var(--ink); }
 .logo-dot{ color: var(--green-deep); margin: 0 2px;}
 .nav-links{ display:flex; align-items:center; gap: 28px; font-size: 14px; font-weight: 500;}
 .nav-links a{ color: rgba(10,18,48,0.75); transition: color .15s; }

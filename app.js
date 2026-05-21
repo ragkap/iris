@@ -1,9 +1,9 @@
 // ---------- Demo password gate ----------
 // Note: client-side password is obfuscation, not real security.
-// Default access code: iris2026 — change PASS_HASH below to rotate.
+// Default access code: irx2026 — change PASS_HASH below to rotate.
 // To generate a new hash: printf '%s' 'yourcode' | shasum -a 256
 const PASS_HASH = '0f77bbbb3b3499d03da1447a61b27b18a31279f251e563247c45467936923f58';
-const STORAGE_KEY = 'iris-demo-unlocked-v1';
+const STORAGE_KEY = 'irx-demo-unlocked-v1';
 
 async function sha256(text) {
   const buf = new TextEncoder().encode(text);
